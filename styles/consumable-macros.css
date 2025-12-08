@@ -1,0 +1,115 @@
+/**
+ * Consumable Macros Styling
+ */
+
+.consumable-macro-section {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border-dark-tertiary, #444);
+}
+
+.consumable-macro-drop-zone {
+  min-height: 80px;
+  border: 2px dashed var(--color-border-dark-tertiary, #666);
+  border-radius: 4px;
+  padding: 1rem;
+  background: var(--color-bg-option, rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.consumable-macro-drop-zone:hover {
+  border-color: var(--color-border-highlight, #999);
+  background: var(--color-bg-option, rgba(0, 0, 0, 0.3));
+}
+
+.consumable-macro-drop-zone.drag-over {
+  border-color: var(--color-border-highlight-alt, #4a9eff);
+  background: var(--color-bg-option, rgba(74, 158, 255, 0.1));
+  border-style: solid;
+}
+
+.consumable-macro-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--color-text-dark-secondary, #999);
+  text-align: center;
+  min-height: 60px;
+}
+
+.consumable-macro-placeholder i {
+  font-size: 2rem;
+  opacity: 0.5;
+}
+
+.consumable-macro-placeholder p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.consumable-macro-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  position: relative;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background: var(--color-bg-option, rgba(0, 0, 0, 0.1));
+}
+
+.consumable-macro-content:hover {
+  background: var(--color-bg-option, rgba(0, 0, 0, 0.2));
+}
+
+.consumable-macro-content img {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-border-dark-tertiary, #444);
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.consumable-macro-content .macro-name {
+  flex: 1;
+  font-weight: 500;
+  color: var(--color-text-light-heading, #f0f0f0);
+}
+
+.consumable-macro-content .macro-remove {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg-btn-minor-active, rgba(255, 0, 0, 0.3));
+  color: var(--color-text-light-heading, #fff);
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  cursor: pointer;
+}
+
+.consumable-macro-content:hover .macro-remove {
+  opacity: 1;
+}
+
+.consumable-macro-content .macro-remove:hover {
+  background: var(--color-bg-btn-minor-active, rgba(255, 0, 0, 0.5));
+}
+
+.consumable-macro-content .macro-remove i {
+  pointer-events: none;
+}
+
+/* Ensure compatibility with different themes */
+.sheet .consumable-macro-section label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
