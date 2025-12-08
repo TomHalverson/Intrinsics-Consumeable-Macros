@@ -1,6 +1,6 @@
 {
   "id": "consumable-macros",
-  "title": "Consumable Macros",
+  "title": "Intrinsic's Consumable Macros",
   "description": "Adds the ability to attach macros to consumable items that execute when the item is used. Perfect for survival systems and custom item effects.",
   "version": "1.0.0",
   "compatibility": {
