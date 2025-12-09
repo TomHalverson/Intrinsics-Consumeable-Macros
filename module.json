@@ -1,6 +1,6 @@
 {
   "id": "consumable-macros",
-  "title": "Intrinsic's Consumable Macros",
+  "title": "Consumable Macros",
   "description": "Adds the ability to attach macros to consumable items that execute when the item is used. Perfect for survival systems and custom item effects.",
   "version": "1.0.0",
   "compatibility": {
@@ -9,7 +9,7 @@
   },
   "authors": [
     {
-      "name": "Intrinsic"
+      "name": "Your Name"
     }
   ],
   "esmodules": [
@@ -29,7 +29,7 @@
       }
     ]
   },
-  "url": "https://github.com/TomHalverson/Intrinsics-Consumeable-Macros",
-  "manifest": "https://raw.githubusercontent.com/TomHalverson/Intrinsics-Consumeable-Macros/refs/heads/main/module.json",
-  "download": "https://github.com/TomHalverson/Intrinsics-Consumeable-Macros/archive/refs/heads/main.zip"
+  "url": "https://github.com/yourusername/consumable-macros",
+  "manifest": "https://github.com/yourusername/consumable-macros/releases/latest/download/module.json",
+  "download": "https://github.com/yourusername/consumable-macros/releases/latest/download/module.zip"
 }
