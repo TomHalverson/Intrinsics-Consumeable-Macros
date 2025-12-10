@@ -30,6 +30,6 @@
     ]
   },
   "url": "https://github.com/TomHalverson/Intrinsics-Consumeable-Macros",
-  "manifest": "https://github.com/TomHalverson/Intrinsics-Consumeable-Macros/edit/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/TomHalverson/Intrinsics-Consumeable-Macros/main/module.json",
   "download": "https://github.com/TomHalverson/Intrinsics-Consumeable-Macros/archive/refs/heads/main.zip"
 }
